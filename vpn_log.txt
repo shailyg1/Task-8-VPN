@@ -1,0 +1,93 @@
+2025-08-15 15:13:56 Note: Kernel support for ovpn-dco missing, disabling data channel offload.
+2025-08-15 15:13:56 OpenVPN 2.6.14 aarch64-unknown-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO]
+2025-08-15 15:13:56 library versions: OpenSSL 3.5.1 1 Jul 2025, LZO 2.10
+2025-08-15 15:13:56 DCO version: N/A
+2025-08-15 15:13:56 NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2025-08-15 15:13:56 TCP/UDP: Preserving recently used remote address: [AF_INET]146.70.230.146:51820
+2025-08-15 15:13:56 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2025-08-15 15:13:56 UDPv4 link local: (not bound)
+2025-08-15 15:13:56 UDPv4 link remote: [AF_INET]146.70.230.146:51820
+2025-08-15 15:14:56 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-08-15 15:14:56 TLS Error: TLS handshake failed
+2025-08-15 15:14:56 SIGUSR1[soft,tls-error] received, process restarting
+2025-08-15 15:14:56 Restart pause, 1 second(s)
+2025-08-15 15:14:57 NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2025-08-15 15:14:57 TCP/UDP: Preserving recently used remote address: [AF_INET]146.70.230.146:4569
+2025-08-15 15:14:57 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2025-08-15 15:14:57 UDPv4 link local: (not bound)
+2025-08-15 15:14:57 UDPv4 link remote: [AF_INET]146.70.230.146:4569
+2025-08-15 15:15:57 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-08-15 15:15:57 TLS Error: TLS handshake failed
+2025-08-15 15:15:57 SIGUSR1[soft,tls-error] received, process restarting
+2025-08-15 15:15:57 Restart pause, 1 second(s)
+2025-08-15 15:15:58 NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2025-08-15 15:15:58 TCP/UDP: Preserving recently used remote address: [AF_INET]146.70.230.146:1194
+2025-08-15 15:15:58 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2025-08-15 15:15:58 UDPv4 link local: (not bound)
+2025-08-15 15:15:58 UDPv4 link remote: [AF_INET]146.70.230.146:1194
+2025-08-15 15:16:58 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-08-15 15:16:58 TLS Error: TLS handshake failed
+2025-08-15 15:16:58 SIGUSR1[soft,tls-error] received, process restarting
+2025-08-15 15:16:58 Restart pause, 1 second(s)
+2025-08-15 15:16:59 NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2025-08-15 15:16:59 TCP/UDP: Preserving recently used remote address: [AF_INET]146.70.230.146:5060
+2025-08-15 15:16:59 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2025-08-15 15:16:59 UDPv4 link local: (not bound)
+2025-08-15 15:16:59 UDPv4 link remote: [AF_INET]146.70.230.146:5060
+2025-08-15 15:17:05 TLS: Initial packet from [AF_INET]146.70.230.146:5060, sid=7a0dd82f 96e31eb2
+2025-08-15 15:17:05 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2025-08-15 15:17:06 VERIFY OK: depth=2, C=CH, O=Proton Technologies AG, OU=ProtonVPN, CN=ProtonVPN Root CA
+2025-08-15 15:17:06 VERIFY OK: depth=1, C=CH, O=ProtonVPN AG, CN=ProtonVPN Intermediate CA 1
+2025-08-15 15:17:06 VERIFY KU OK
+2025-08-15 15:17:06 Validating certificate extended key usage
+2025-08-15 15:17:06 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Server Authentication
+2025-08-15 15:17:06 ++ Certificate has EKU (oid) 1.3.6.1.5.5.7.3.2, expects TLS Web Server Authentication
+2025-08-15 15:17:06 ++ Certificate has EKU (str) 1.3.6.1.5.5.8.2.2, expects TLS Web Server Authentication
+2025-08-15 15:17:06 ++ Certificate has EKU (oid) 1.3.6.1.5.5.8.2.2, expects TLS Web Server Authentication
+2025-08-15 15:17:06 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2025-08-15 15:17:06 VERIFY EKU OK
+2025-08-15 15:17:06 VERIFY OK: depth=0, CN=node-us-293.protonvpn.net
+2025-08-15 15:17:06 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bits RSA, signature: RSA-SHA256, peer temporary key: 253 bits X25519
+2025-08-15 15:17:06 [node-us-293.protonvpn.net] Peer Connection Initiated with [AF_INET]146.70.230.146:5060
+2025-08-15 15:17:06 TLS: move_session: dest=TM_ACTIVE src=TM_INITIAL reinit_src=1
+2025-08-15 15:17:06 TLS: tls_multi_process: initial untrusted session promoted to trusted
+2025-08-15 15:17:07 SENT CONTROL [node-us-293.protonvpn.net]: 'PUSH_REQUEST' (status=1)
+2025-08-15 15:17:07 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway ipv6 def1,explicit-exit-notify,dhcp-option DNS 10.96.0.1,sndbuf 524288,rcvbuf 524288,tun-ipv6,route-gateway 10.96.0.1,topology subnet,ping 10,ping-restart 60,socket-flags TCP_NODELAY,ifconfig 10.96.0.115 255.255.0.0,peer-id 65622,cipher AES-256-GCM,protocol-flags cc-exit tls-ekm dyn-tls-crypt,tun-mtu 1500'
+2025-08-15 15:17:07 OPTIONS IMPORT: --sndbuf/--rcvbuf options modified
+2025-08-15 15:17:07 Socket Buffers: R=[212992->425984] S=[212992->425984]
+2025-08-15 15:17:07 OPTIONS IMPORT: --socket-flags option modified
+2025-08-15 15:17:07 NOTE: setsockopt TCP_NODELAY=1 failed
+2025-08-15 15:17:07 OPTIONS IMPORT: --ifconfig/up options modified
+2025-08-15 15:17:07 OPTIONS IMPORT: route options modified
+2025-08-15 15:17:07 OPTIONS IMPORT: route-related options modified
+2025-08-15 15:17:07 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2025-08-15 15:17:07 OPTIONS IMPORT: tun-mtu set to 1500
+2025-08-15 15:17:07 net_route_v4_best_gw query: dst 0.0.0.0
+2025-08-15 15:17:07 net_route_v4_best_gw result: via 10.0.2.2 dev eth0
+2025-08-15 15:17:07 ROUTE_GATEWAY 10.0.2.2/255.255.255.0 IFACE=eth0 HWADDR=08:00:27:87:07:a6
+2025-08-15 15:17:07 GDG6: remote_host_ipv6=n/a
+2025-08-15 15:17:07 net_route_v6_best_gw query: dst ::
+2025-08-15 15:17:07 net_route_v6_best_gw result: via fe80::2 dev eth0
+2025-08-15 15:17:07 ROUTE6_GATEWAY fe80::2 IFACE=eth0
+2025-08-15 15:17:07 TUN/TAP device tun0 opened
+2025-08-15 15:17:07 net_iface_mtu_set: mtu 1500 for tun0
+2025-08-15 15:17:07 net_iface_up: set tun0 up
+2025-08-15 15:17:07 net_addr_v4_add: 10.96.0.115/16 dev tun0
+2025-08-15 15:17:07 /etc/openvpn/update-resolv-conf tun0 1500 0 10.96.0.115 255.255.0.0 init
+dhcp-option DNS 10.96.0.1
+2025-08-15 15:17:07 net_route_v4_add: 146.70.230.146/32 via 10.0.2.2 dev [NULL] table 0 metric -1
+2025-08-15 15:17:07 net_route_v4_add: 0.0.0.0/1 via 10.96.0.1 dev [NULL] table 0 metric -1
+2025-08-15 15:17:07 net_route_v4_add: 128.0.0.0/1 via 10.96.0.1 dev [NULL] table 0 metric -1
+2025-08-15 15:17:07 WARNING: OpenVPN was configured to add an IPv6 route. However, no IPv6 has been configured for tun0, therefore the route installation may fail or may not work as expected.
+2025-08-15 15:17:07 add_route_ipv6(::/3 -> :: metric -1) dev tun0
+2025-08-15 15:17:07 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2025-08-15 15:17:07 add_route_ipv6(2000::/4 -> :: metric -1) dev tun0
+2025-08-15 15:17:07 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2025-08-15 15:17:07 add_route_ipv6(3000::/4 -> :: metric -1) dev tun0
+2025-08-15 15:17:07 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2025-08-15 15:17:07 add_route_ipv6(fc00::/7 -> :: metric -1) dev tun0
+2025-08-15 15:17:07 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2025-08-15 15:17:07 Initialization Sequence Completed
+2025-08-15 15:17:07 Data Channel: cipher 'AES-256-GCM', peer-id: 65622
+2025-08-15 15:17:07 Timers: ping 10, ping-restart 60
+2025-08-15 15:17:07 Protocol options: explicit-exit-notify 1, protocol-flags cc-exit tls-ekm dyn-tls-crypt

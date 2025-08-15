@@ -1,0 +1,40 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '223.226.0.0 - 223.227.255.255'
+
+% Abuse contact for '223.226.0.0 - 223.227.255.255' is 'ip.misuse@airtel.com'
+
+inetnum:        223.226.0.0 - 223.227.255.255
+netname:        BHARTI-MO-IN
+descr:          Bharti Airtel Limited
+descr:          Unitech World Cyber Park
+descr:          Tower B, 6th Floor,
+descr:          Sector-39
+country:        IN
+org:            ORG-BAL2-AP
+admin-c:        RJ777-AP
+tech-c:         RJ777-AP
+abuse-c:        AB1077-AP
+status:         ALLOCATED PORTABLE
+remarks:        --------------------------------------------------------
+remarks:        To report network abuse, please contact mnt-irt
+remarks:        For troubleshooting, please contact tech-c and admin-c
+remarks:        Report invalid contact via www.apnic.net/invalidcontact
+remarks:        --------------------------------------------------------
+notify:         rashim.kapoor@airtel.in
+mnt-by:         APNIC-HM
+mnt-lower:      MAINT-IN-MOBILITY
+mnt-routes:     MAINT-IN-MOBILITY
+mnt-irt:        IRT-BHARTI-MO-IN
+last-modified:  2024-07-11T03:37:26Z
+source:         APNIC
+
+irt:            IRT-BHARTI-MO-IN
+address:        Bharti Airtel Ltd.
+address:        Airtel Center, Plot No. 16 Udhyog Vihar
+address:        Gurgaon, India
+e-mail:         Rahul3.Jain@airtel.com
+abuse-mailbox:  ip.misuse@airtel.com
+admin-c:        RJ777-AP
+tech-c:         RJ777-AP

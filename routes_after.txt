@@ -1,0 +1,6 @@
+0.0.0.0/1 via 10.96.0.1 dev tun0 
+default via 10.0.2.2 dev eth0 proto dhcp src 10.0.2.15 metric 100 
+10.0.2.0/24 dev eth0 proto kernel scope link src 10.0.2.15 metric 100 
+10.96.0.0/16 dev tun0 proto kernel scope link src 10.96.0.115 
+128.0.0.0/1 via 10.96.0.1 dev tun0 
+146.70.230.146 via 10.0.2.2 dev eth0 
